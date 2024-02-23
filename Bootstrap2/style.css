@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navbar top  */
+.navbar-top {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.social-link i img{
+    margin-left: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.social-link i img:hover{
+    background-color: rgba(238,224,200);
+    border-radius: 50px;
+}
+@media screen and (max-width:420px){
+    .social-link i img{
+        width: 20px;
+    }
+}
+.logo h3{
+    font-weight: bolder;
+}
+@media screen and (max-width:420px){
+    .logo h3{
+        font-size: 20px;
+    }
+}
+.icons i img{
+    margin-left: 10px;
+    cursor: pointer;
+}
+@media screen and (max-width:420px){
+    .icons i img{
+       width: 20px;
+    }
+}
+/* navbar top  end*/
+
+/* navbar  */
+#navbarNav{
+    background-color: rgb(86, 157, 223);
+    justify-content: space-around;
+    font-size: large;
+    font-weight: bolder;
+}
+#navbarNav a{
+    color: rgb(8, 1, 36);
+}
+#navbarNav a:hover{
+    color: white;
+}
+
+/* carousel  */
+.carousel-caption p {
+    font-size: 20px;
+    color: white;
+    /* font-weight: bolder; */
+}
+.carousel-caption h5 {
+    font-size: 30px;
+    color: rgb(202, 63, 161);
+    font-weight: bolder;
+}
+/* carousel  */
+
+/* ::content */
+.content{
+    margin-top: 150px;
+    margin-left: 60px;
+}
+.content h1{
+    font-size: 50px;    
+    color:rgb(238, 237, 245) ;
+}
+#btn1 button{
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid rgb(241, 240, 240);
+    letter-spacing: 3px;
+    font-weight: bold;
+    transition: 0.5s ease;
+    cursor: pointer;
+    color: beige;
+}
+#pg{
+    color: rgb(230, 129, 213);
+    font-size: 20px;
+    font-style: oblique;
+    font-weight:bolder;
+}
+#btn1 button:hover{
+    background-color: crimson;
+}
+@media screen and (max-width:420px){
+.content h1{
+    font-size: 30px;
+}
+}
+/* ::content */
+/* MAIN CONTENT  */
+
+/* card1  */
+.text-center1{
+    color: rgb(77, 104, 223);
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+#btn2 button{
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn2 button :hover{
+    background-color:crimson;
+}
+.ROW{
+    display: inline-flex;
+    width: fit-content;
+    padding-right: 0;
+    margin-left: 0%;
+}
+/* card1  */
+
+/* card2  */
+#tpc{
+    box-shadow: 0 0 5px black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#tpc:hover{
+    transform: translateY(-10px);
+}
+#btn2 button{
+    font-size: larger;
+    font-weight: bolder;
+    background-color: rgb(160, 203, 243);
+}
+#btn2 button{
+    width: 120px;
+    height: 30px;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn2 button:hover{
+    background-color: crimson;
+}
+/* card2  */
+
+/* card3  */
+#c p{
+    font-weight: bold
+}
+#btn3{
+    text-align: center;
+}
+#btn3 button{
+    width: 120px;
+    height: 30px;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+    background-color: rgb(121, 177, 223);
+    border-radius: 20px;
+}
+#btn3 button:hover{
+    background-color: crimson;
+}
+@media screen and (max-width:895px){
+    #btn3 botton{
+        width: 100px;
+    }
+}
+/* card3  */
+
+#btn4 button{
+    width: 120px;
+    height: 30px;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+    background-color: steelblue;
+    border-radius: 20px;
+}
+#btn4 button:hover{
+    background-color: crimson;
+}
+
+/* contact  */
+/* * {
+    box-sizing: border-box;
+  } */
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #050d57;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    border-radius: 10px;
+  }
+  
+  input[type=submit] {
+    background-color: #2d7b8f;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #ec65ec;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    padding: 30px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .form{
+    font-weight: bolder;
+    font-size: large;
+    color: #04043a;
+  }
+  .cont{
+    color: #2d7b8f;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 50px;
+  }
+  .pg{
+    font-size: 20px;
+    color: rgb(6, 2, 43);
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  /* footer  */
+  footer{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0 , 0, 0.7)), url(Dimond-wallpapers-HD.jpg);
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+    .footer-top{
+        margin-bottom: 30px;
+    }
+  footer p{
+    color: rgb(82, 127, 167);
+    /* font-weight: bolder; */
+  }
+  footer h3{
+    font-size: 35px;
+    color: rgb(245, 245, 247);
+    font-weight: bolder;
+  }
+  #p{
+    color: rgb(82, 127, 167);
+    font-weight: bold;
+  }
+  footer h6{
+    color: rgb(2, 25, 128);
+    font-size: 25px;
+    font-weight: bolder;
+    font-family:  'Times New Roman', Times, serif;
+  }
+  .footer-bottom{
+    padding: 20px;
+    border: 1px solid rgba(255,255,255,0.4) ;
+  }
